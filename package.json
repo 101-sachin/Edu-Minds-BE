@@ -2,9 +2,9 @@
   "name": "edu-minds-be",
   "version": "1.0.0",
   "description": "this is the backend for the edu-minds",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "tsc && node dist/index.js",
+    "start": "tsc && node dist/index.ts",
     "dev": "ts-node src/index.ts",
     "dev:admin": "cd admin && npm run dev",
     "dev:all": "concurrently \"npm run dev\" \"npm run dev:admin\"",
