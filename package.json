@@ -2,7 +2,7 @@
   "name": "edu-minds-be",
   "version": "1.0.0",
   "description": "this is the backend for the edu-minds",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "tsc && node dist/index.js",
     "dev": "ts-node src/index.ts",
